@@ -4,7 +4,7 @@ import axios from "axios";
 const AuthAPI = () => {
   if (typeof window !== "undefined") {
     return axios.create({
-      baseURL: `http://localhost:5000/api`,
+      baseURL: `https://tender-sgqr.onrender.com/api`,
       headers: {
         authorization: `Bearer ${localStorage.getItem("token")}`,
         "Content-Type": "application/json",

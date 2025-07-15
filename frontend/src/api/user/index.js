@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Set base URL for axios
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://tender-sgqr.onrender.com/api";
 
 // Get token from localStorage
 const getToken = () => localStorage.getItem("token");
