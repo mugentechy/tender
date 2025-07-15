@@ -12,7 +12,7 @@ const AuthAPI = () => {
     });
   } else {
     return axios.create({
-      baseURL: `http://localhost:5000/api`,
+      baseURL: `https://tender-sgqr.onrender.com/api`,
       headers: {
         authorization: `Bearer`,
         "Content-Type": "application/json",
