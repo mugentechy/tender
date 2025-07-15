@@ -47,7 +47,7 @@ function Register() {
 const onSubmit = async (formData) => {
   setbutton(true);
   try {
-    const { data } = await axios.post("http://localhost:5000/api/auth/register", formData, {
+    const { data } = await axios.post("https://tender-sgqr.onrender.com/api/auth/register", formData, {
       headers: {
         "Content-Type": "application/json",
       },
